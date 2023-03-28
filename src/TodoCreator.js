@@ -8,7 +8,7 @@ export class TodoCreator extends Component {
 
 
     updateNewTextValue = (event) => {
-        this.setState({ newItemText: event.target.Value });
+        this.setState({ newItemText: event.target.value });
     }
 
     createNewTodo = () => {
